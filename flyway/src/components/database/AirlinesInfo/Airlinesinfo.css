@@ -1,0 +1,27 @@
+.container10{
+    margin-top: 10px;
+    background-image:url('../../../assets/images/home/bg9.jpg') ;
+    opacity: 0.9;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: white;
+    width: 2000px;
+    height: 705px;
+    padding: 25px;
+    overflow: auto;
+    /* background-size: 100% 100%; */
+}
+table, td, th {
+    border: 2px solid burlywood;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.container11{
+    margin-top:30px;
+    margin-left: 70px;
+    border: 2px solid rgb(2, 80, 110);
+    width: 600px;
+}

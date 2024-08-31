@@ -1,0 +1,36 @@
+.div5{
+    margin-top: 120px;
+    color: white;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 450px;
+}
+.p1{
+    margin-left: 430px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.p2{
+    margin-left: 600px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.p3{
+    margin-left: 370px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+/* .btn{
+    margin-left: 680px;
+} */
+.body4{
+    background-image: url('D:\Assignment_Project\exam-portal\src\component\Link\Image\background_image.avif'); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh; 
+    overflow: hidden;
+}

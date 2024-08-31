@@ -19,6 +19,7 @@ import youtube from '../assets/images/home/footer/youtube.png'
 import FlightSearch from './home/SearchFlight';
 import FlightResults from './home/FlightResults';
 import airlines from "../assets/database/airlines/airlines_info";
+import AirlinesInfoView from "./database/AirlinesInfo/AirlinesInfoView";
 
 
 
@@ -26,6 +27,7 @@ import airlines from "../assets/database/airlines/airlines_info";
 const Home = ()=>{
 
     const [searchData, setSearchData] = useState(null);
+    const [airlinesinfos,setAirlinesinfos] = useState([]);
 
     const handleSearch = (data) => {
         setSearchData(data);
@@ -350,7 +352,20 @@ const Home = ()=>{
                     </div>
                   )
                 }
+                 {/* {
+                        airlinesinfos.map(air=>
+                          <div key={air.id} value={air.id} className="col-md-4">
+                            <Link to={"/airlines-desc/"+air.id} key={air.id} className="btn btn-primary rounded-3 p-2 m-3" 
+                                  style={{fontSize:'20px',fontWeight:'bold'}}>
+                              {air.name}
+                            </Link>
+                          </div>
+                            
+                            
+                          )  
+                    } */}
 
+                  
                 
 
                 {/* <div className="col-md-4">         

@@ -1,0 +1,25 @@
+.body1{
+    margin-top:170px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 25px;
+    width: 30%;
+    height:460px;
+    border-radius: 5px;
+    border-color:rgb(66, 61, 61);
+    border-style: solid;
+    background-color: rgb(66, 61, 61);
+    text-align: center;
+    color: white;
+}
+.font1{
+    font-size: 40px;
+}
+.body2{
+    background-image: url('D:\Assignment_Project\exam-portal\src\component\Link\Image\background_image.avif'); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh; 
+    overflow: hidden;
+}

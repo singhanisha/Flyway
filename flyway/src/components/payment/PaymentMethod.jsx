@@ -7,7 +7,8 @@ const PaymentMethod=()=>{
 
     return(
         <>
-        <div className="p-5">
+        
+        <div className="p-5 d-flex">
         <nav className="navbar  border border-3 rounded-4 w-25 h-50%" style={{marginTop:'150px'}}>
             <ul className="navbar-nav p-4">
                 <p className="fw-bold">
@@ -52,9 +53,10 @@ const PaymentMethod=()=>{
                 </li>
             </ul>
         </nav> */}
+        <Outlet/>
         </div>
-        
-            <Outlet/>
+       
+            
 
         
         

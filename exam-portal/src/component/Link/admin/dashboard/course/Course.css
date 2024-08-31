@@ -1,0 +1,52 @@
+.container01{
+    /* background-image: url('../../../../../assets/images/background2.jpg'); */
+   /*  background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: rgb(255, 210, 210);
+    border-radius: 10px;
+    margin: 20px;
+    width:2000px;
+    height: 685px;
+    overflow: auto;
+}
+.btn01{
+    background-color:rgb(255, 0, 255);
+   border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid rgb(255, 0, 255);
+}
+.btn02{
+    background-color:rgb(3, 100, 16);
+   border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid rgb(3, 100, 16);
+}
+.container02{
+   /* position:absolute; */
+   margin-top: 50px;
+   margin-left: 300px;
+   margin-right: 300px;
+   border: 2px solid rgb(247, 162, 5);
+   border-radius: 5px;
+   padding: 10px;
+   background-color: rgb(27, 202, 208);
+}
+.btn03{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+   /*  margin-right: 150px; */
+
+}
+.container03{
+    width: 1285px;
+    margin: 10px;
+}
+.thead{
+    background-color: blue;
+    color: white;
+}

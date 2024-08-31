@@ -3,7 +3,7 @@ import InfantSection from "./data/infant/InfantSection";
 
 export default function InfantButton(){
 
-  const [count,setCount] = useState(2)
+  const [count,setCount] = useState(1)
 
   const [infants,setInfants]=useState([])
 

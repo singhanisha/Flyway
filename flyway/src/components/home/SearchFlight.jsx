@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import departCities from "../../assets/database/searchdata/depart_cities";
 import arrivalCities from "../../assets/database/searchdata/arrival_cities";
 
@@ -34,7 +34,7 @@ const FlightSearch = ({onSearch})=>{
                   </label>
                   <select className="form-select" id="origin" value={origin} onChange={(e) => setOrigin(e.target.value)}  
                            style={{fontSize:'20px'}} required >
-                          <option value="">Select Origin</option>
+                          <option value="">Select Origin</option> 
                           {departCities.map((airport, index) => (
                           <option key={index} value={airport.name}>{airport.name}</option>
                     ))}                    

@@ -1,0 +1,17 @@
+.container002{
+    /* position:absolute; */
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 2px solid rgb(247, 162, 5);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(27, 202, 208);
+ }
+ .btn003{
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-left: 300px;
+    /*  margin-right: 150px; */
+ 
+ }

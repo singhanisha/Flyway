@@ -1,0 +1,22 @@
+.teacher{
+    background-image: url('D:\Assignment_Project\exam-portal\src\component\Link\Image\background_image.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 729px;
+    overflow: hidden;
+    text-align: center;
+}
+.h1{
+    color: white;
+    margin-top: 200px;
+   
+}
+.h5{
+    color: white;
+    margin-bottom: 20px;
+}
+.h6{
+    color: white;
+    margin-bottom: 20px;
+}

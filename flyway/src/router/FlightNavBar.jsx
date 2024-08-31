@@ -31,6 +31,14 @@ const FlightNavBar = ()=>{
                                     Login
                                 </Link>
                             </li>
+                            
+                            <li className="nav-item p-2">
+                                <Link to='/admin' className="nav-link btn btn-outline-warning text-white" 
+                                            style={{fontWeight:'bold',fontSize:'18px'}}>
+                                    Admin
+                                </Link>
+                            </li>
+                            
                             <li className="nav-item p-2">
                                 <Link to='/signup' className="nav-link btn btn-outline-warning text-white" 
                                             style={{fontWeight:'bold',fontSize:'18px'}}>
@@ -49,6 +57,18 @@ const FlightNavBar = ()=>{
                                     Contact Us
                                 </Link>
                             </li>
+                            {/* <li className="nav-item p-2">
+                                <Link to='/button' className="nav-link btn btn-outline-warning text-white" 
+                                            style={{fontWeight:'bold',fontSize:'18px'}}>
+                                    Button
+                                </Link>
+                            </li>
+                            <li className="nav-item p-2">
+                                <Link to='/childbutton' className="nav-link btn btn-outline-warning text-white" 
+                                            style={{fontWeight:'bold',fontSize:'18px'}}>
+                                    ChildButton
+                                </Link>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

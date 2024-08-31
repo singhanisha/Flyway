@@ -1,0 +1,31 @@
+.teach{
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    width:2000px;
+    height: 685px;
+    overflow: auto;
+    display: flex;
+}
+.totalteacher{
+        background-color:rgb(254, 107, 54);
+        color: #000;
+        margin-top: 50px;
+        margin-left: 80px;
+        width: 300px;
+        height: 150px;
+        padding-top: 50px;
+        padding-left: 20px;
+        border-radius: 15px;   
+}
+.pendingteacher{
+        background-color:rgb(169, 1, 169);
+        color: #000;
+        margin-top: 50px;
+        margin-left: 80px;
+        width: 300px;
+        height: 150px;
+        padding-top: 50px;
+        padding-left: 20px;
+        border-radius: 15px;
+}

@@ -17,8 +17,8 @@ const UpiSection=()=>{
 return(
         <>
         {!isSubmitted &&
-        <div className="container  w-50 my-5 rounded text-dark p-3"  style={{backgroundColor: 'rgb(220, 237, 252)'}}>
-        <div>
+        <div className="container  w-50 my-5 rounded text-dark p-3"  /* style={{backgroundColor: 'rgb(220, 237, 252)'}} */>
+        <div className="container-2">
             <div>
             {/* <button onClick={()=>{setIsSubmitted(false)}}>&#8592; </button> */}
             <ul>
